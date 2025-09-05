@@ -1,1 +1,23 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000"><path d="m577.3 0 577.4 1000H0z" fill="#fff"/></svg>
+<svg width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<!-- A background circle for a nice base -->
+<circle cx="50" cy="50" r="45" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="2"/>
+
+<!--
+This is the star shape.
+The 'd' attribute defines the path of the shape using a series of commands:
+M = Move to
+L = Line to
+Z = Close path
+-->
+
+<path
+d="M50 7.5L61.8 38.2L94.7 38.2L68.8 59.4L79.1 90.1L50 71.3L20.9 90.1L31.2 59.4L5.3 38.2L38.2 38.2L50 7.5Z"
+fill="#f59e0b"
+stroke="#d97706"
+stroke-width="2"
+/>
+
+<!-- A smaller circle in the center of the star -->
+
+<circle cx="50" cy="50" r="10" fill="#fef08a" stroke="#facc15" stroke-width="1.5"/>
+</svg>
